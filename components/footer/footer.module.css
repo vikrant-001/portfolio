@@ -1,0 +1,37 @@
+.cont{
+    width: 100%;
+    background-color: rgb(223, 238, 243);
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.main p {
+    font-size: larger;
+    font-weight: 400;
+}
+
+.main span{
+    background-color: black;
+    color: white;
+    font: bold;
+    padding: 0.1rem;
+    border-radius: 2px;
+}
+
+.para{
+    display: flex;
+    justify-items: baseline;
+    gap: 2rem;
+}

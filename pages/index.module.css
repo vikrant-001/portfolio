@@ -1,0 +1,29 @@
+.main{
+    scroll-behavior:auto;
+}
+.navbar{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.5rem;
+    background: rgb(222, 222, 235);
+    position: fixed;
+
+}
+.navbar p {
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.navbar p:hover{
+    color: rgb(166, 11, 11);
+}
+
+.linksc{
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+}

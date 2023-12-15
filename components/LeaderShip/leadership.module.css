@@ -1,0 +1,43 @@
+.maincnt{
+    height: 600px;
+    width: 85%;
+    margin: 0 auto;
+}
+.para{
+    display: flex;
+    gap: 1rem;
+}
+.para p{
+    height: 600px;
+    width: 45%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: -1rem;
+    
+}
+
+.headi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .maincnt{
+        margin-bottom: 3rem;
+    }
+    .para p{
+        width: 400px;
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 8rem;
+    }
+  }
