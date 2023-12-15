@@ -27,7 +27,7 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .maincnt{
         margin-bottom: 3rem;
     }
@@ -36,6 +36,7 @@
     }
     .para{
         display: flex;
+        height: fit-content;
         flex-direction: column;
         gap: 2rem;
         margin-bottom: 8rem;

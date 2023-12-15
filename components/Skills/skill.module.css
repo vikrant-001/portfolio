@@ -38,7 +38,10 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+    .main{
+        height: fit-content;
+    }
     .btn{
       display: flex;
       flex-direction: column;
